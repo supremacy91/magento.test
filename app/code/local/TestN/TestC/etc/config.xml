@@ -1,0 +1,27 @@
+<config>
+    <modules>
+        <TestN_TestC>
+            <version>0.0.0.4</version>
+        </TestN_TestC>
+    </modules>
+    <!--<admin>
+        <routers>
+            <test_route>
+                <args>
+                    <modules>
+                        <test_routing before="Mage_Adminhtml">TestN_TestC</test_routing>
+                    </modules>
+                </args>
+            </test_route>
+        </routers>
+    </admin>-->
+    <global>
+        <resources>
+            <test_setup>
+                <setup>
+                    <module>TestN_TestC</module>
+                </setup>
+            </test_setup>
+        </resources>
+    </global>
+</config>
